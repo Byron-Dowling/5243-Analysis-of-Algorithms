@@ -95,10 +95,10 @@ typedef vector<int> Vint;           // typedef for a vector of int vectors
 		- Sorts() - Default Constructor
 		- Sorts(int S) - Overloaded Constructer
 		- vector<float> getTimes() - Returns a vector of run times
-        - vector<string> getSorts() - Returns a vector of sort names
-        - vector<int> getComps() - Returns a vector of computations
-        - void loadData() - Initializes the array of numbers to be sorted with random numbers
-        - void printData() - Utility function
+		- vector<string> getSorts() - Returns a vector of sort names
+		- vector<int> getComps() - Returns a vector of computations
+		- void loadData() - Initializes the array of numbers to be sorted with random numbers
+		- void printData() - Utility function
 		- void copyArray() - Makes a copy of the array that is sent to all the sort functions
 		- void runExperiment() - Method that sends the copy array to all the sorts
 
@@ -447,8 +447,8 @@ class Sorts
 	Public Methods:
 		- SortExperiment() - Default Constructor
 		- SortExperiment(int num) - Overloaded Constructer
-        - void showExperimentResults(const char* h) - Print results and writes to file
-        - void calculateAvgs() - Calculates the runtime and computation averages for each sort
+		- void showExperimentResults(const char* h) - Print results and writes to file
+		- void calculateAvgs() - Calculates the runtime and computation averages for each sort
 		- void startExperiment() - Starts the process of running the experiment multiple times
 
 	Usage:
