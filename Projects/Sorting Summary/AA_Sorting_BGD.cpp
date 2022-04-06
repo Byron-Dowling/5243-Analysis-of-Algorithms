@@ -561,9 +561,8 @@ class SortExperiment
 
             for (int k = 0; k < size; k++)
             {
-                //cout << results[k] << " divided by " << size << endl;
                 results[k] /= size;
-                //cout << results[k] << endl;
+
                 Avg_Comps[k] /= size;
             }
         }
