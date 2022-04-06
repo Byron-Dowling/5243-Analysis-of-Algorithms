@@ -430,7 +430,8 @@ class Sorts
                      \__|                                                                         
  
     Description:
-		This class is the main driver of the program. The class will either take a default int
+	
+	This class is the main driver of the program. The class will either take a default int
         or have an integer passed in at object declaration that will serve as how many "runs"
         we will conduct on the Sorting Experiment. This will then start a loop up to this number
         and at each iteration, a new Sorts object is created to conduct an instance of the
